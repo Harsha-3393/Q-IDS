@@ -1,0 +1,13 @@
+venv/
+
+__pycache__/
+
+*.pyc
+
+models/*.pkl
+
+datasets/
+
+.ipynb_checkpoints/
+
+.env

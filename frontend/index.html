@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Q-IDS Dashboard</h1>
+
+<div class="grid">
+
+<div class="card">
+
+<h2>System Status</h2>
+
+<div class="status">
+ACTIVE
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>Model Performance</h2>
+
+<p>Random Forest - 93.41%</p>
+
+<p>XGBoost - 93.44%</p>
+
+<p>Quantum VQC - 69%</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Live Detection</h2>
+
+<button>
+
+Run Detection
+
+</button>
+
+<p id="result">
+
+Waiting...
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>Recent Activity</h2>
+
+<ul id="history">
+
+<li>No predictions yet</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
